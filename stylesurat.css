@@ -1,0 +1,84 @@
+body{
+    background-color: darkslategray;
+}
+.container{
+    box-sizing: border-box;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    justify-content: center;
+    height: 1070px;
+    width: 750px;
+}
+
+.title{
+    padding: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: center;
+}
+
+.tanggal{
+    margin-right: 20px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-align: right;
+}
+
+.top{
+    margin-left: 20px;
+}
+
+.top p{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-align: left;
+}
+
+.header{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header p{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-align: justify;
+}
+
+.isi{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.isi p{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer p{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    text-align: right;
+}
+
+.cv p{
+    font-size: 16px;
+    color: black;
+    font-family: 'Times New Roman';
+}
+.cv p a{
+    color: darkblue;
+    text-decoration: none;
+}
+.cv p :hover{
+    color: dimgrey;
+}

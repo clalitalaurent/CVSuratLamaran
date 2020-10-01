@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial;
+}
+
+body{
+    background: white;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.semibold{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cv{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.cv .cvleft{
+    width: 300px;
+    background: lightslategray;
+}
+
+.cv .cvleft .profile{
+    width: 300px;
+    height: 300px;
+}
+
+.cv .cvleft .profile img{
+    width: 70%;
+    height: 70%;
+    margin-left: 42px;
+    margin-top: 40px;
+}
+
+.cv .cvleft .content{
+    padding: 0 25px;
+}
+
+.cv .title{
+    margin-bottom: 20px;
+}
+.cv .cvleft .bold{
+    color: white;
+}
+
+.cv .cv.left .semibold{
+    color: black;
+}
+
+.cv .item{
+    padding: 25px 0;
+    border-bottom: 2px solid white;
+}
+
+.cv .cvleft .item:last-child,
+.cv .cvright .item:last-child{
+    border-bottom: 0px;
+}
+
+.cv .cvleft ul li{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cv .cvleft ul li:last-child{
+    margin-bottom: 0;
+}
+
+.cv .cvright{
+    width: 520px;
+    background: slategrey;
+    padding: 25px;
+}
+
+.cv .cvright .bold{
+    color: white;
+}
+
+.cv .cvright .item ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.cv .cvright ul li{
+    position: relative;
+}
+
+.cv .cvright ul li .date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.cv .cvright ul li .info{
+    margin-bottom: 20px;
+}
+
+.cv .cvright .item ul li:last-child .info{
+    margin-bottom: 0;
+}
+
+.cv .cvright .item ul li:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.cv .cvright .item .project {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cv .cvright .item .appletter{
+    font-size: 16px;
+}
+
+.cv .cvright .item ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.cv .cvright .item .appletter :hover{
+    color: white;
+}
+
+
+/* 
+.cv .cvright .cvitem .job ul,
+.cv .cvright .cvitem .edu ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.cv .cvright ul li{
+    position: relative;
+}
+
+.cv .cvright ul li .edudate{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.cvright .bold{
+    color: black;
+} */
+
+/* .edudate{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+
+.jobdate{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.infoedudate{
+    margin-bottom: 15px;
+}
+
+.infojobdate{
+    margin-bottom: 15px;
+} */
